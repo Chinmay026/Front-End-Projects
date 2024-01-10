@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Factory</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:wght@600&family=Playball&display=swap" rel="stylesheet">
+<style>
+    body{
+        color: white;
+        margin: 0px auto;
+        width: 1200px;
+        padding: 0px;
+        background: url(pexels-anush-gorak-1229356.jpg)no-repeat;
+        font-family: 'Brygada 1918', serif;
+        background-size: 100%;}
+    .left
+    {
+        position: absolute;
+        left: 20px;
+        top: 1px;
+        display: inline-block;
+    }
+    .mid
+    {
+        margin: 30px auto;
+        width: 600px;
+        display: block;
+    }
+    .right
+    {
+        
+        position: absolute;
+        right: 1px;
+        top: 1px;
+        display: inline-block;
+        margin: 30px;
+    }
+    .mid li{
+        list-style: none;
+       display: inline;
+       width: 100px;
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+
+    .left img{
+        filter: invert(100%); 
+        width: 80px;
+        margin: auto;
+        padding-left: 10px;
+    }
+
+    .mid a{
+        text-decoration: none;
+        color: white;
+    }
+    .mid a:hover{
+        text-decoration: underline;}
+
+    .left div{
+        text-align: center;
+    }
+
+    .butt{
+        border-radius: 40px;
+        background-color: grey;
+        color: white;
+    }
+
+    .container{
+        border: 2px solid;
+        border-radius: 10px;
+        margin: 100px 452px;
+        width: 300px; 
+        position: absolute;
+        height: 300px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    
+    .container button{
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+    .container input{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 200px;
+        padding: 3px;
+        display: block;
+        margin: 8px auto;
+
+    }
+</style>
+<body>
+    <header>
+        <div class="left">
+            <img src="download.png">
+            <div>Body Factory</div></div>
+        <div class="mid">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FITNESS PROGRAM</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PERSONAL TRAINING</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="butt">Sign in</button>
+            <button class="butt">Call Us</button>
+</div>
+    </header>
+    <div class="container">
+        <form action="noaction">
+            <h1>Register now to TRANSFORM!</h1>
+            <input type="text" placeholder="Enter your Name">
+            <input type="number" placeholder="Enter your Phno">
+            <input type="text" placeholder="Enter your Address">
+            <input type="email" placeholder="Enter your Email">
+            <button>Submit</button>
+        </form>
+    
+    </div>
+    
+</body>
+</html>
